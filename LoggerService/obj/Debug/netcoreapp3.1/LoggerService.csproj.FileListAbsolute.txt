@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.deps.json
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.dll
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.pdb
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\Contracts.dll
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\Contracts.pdb
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfo.cs
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CopyComplete
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.dll
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.pdb
