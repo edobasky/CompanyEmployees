@@ -1791,6 +1791,20 @@
         "runtime": {
           "bin/placeholder/LoggerService.dll": {}
         }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Contracts": "1.0.0",
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
       }
     }
   },
@@ -6072,6 +6086,11 @@
       "type": "project",
       "path": "../LoggerService/LoggerService.csproj",
       "msbuildProject": "../LoggerService/LoggerService.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6080,7 +6099,8 @@
       "LoggerService >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.29",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.29",
-      "NLog >= 5.0.4"
+      "NLog >= 5.0.4",
+      "Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6115,6 +6135,9 @@
             },
             "C:\\Users\\hp\\Desktop\\CinematicCode\\CompanyEmployees\\LoggerService\\LoggerService.csproj": {
               "projectPath": "C:\\Users\\hp\\Desktop\\CinematicCode\\CompanyEmployees\\LoggerService\\LoggerService.csproj"
+            },
+            "C:\\Users\\hp\\Desktop\\CinematicCode\\CompanyEmployees\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\CinematicCode\\CompanyEmployees\\Repository\\Repository.csproj"
             }
           }
         }
