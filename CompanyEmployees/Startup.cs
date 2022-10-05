@@ -34,6 +34,8 @@ namespace CompanyEmployees
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
             services.ConfigureSqlContext(Configuration);
+            services.ConfigureRepositoryManager();
+            services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
         }
 
@@ -61,6 +63,12 @@ namespace CompanyEmployees
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+
+                //Convention routing but not adviced by Asp.net core team
+                /*endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}"
+                    );*/
             });
         }
     }

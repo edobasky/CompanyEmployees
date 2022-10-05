@@ -11,3 +11,5 @@ C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\obj\Debug\netco
 C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CopyComplete
 C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.dll
 C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.pdb
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\Entities.pdb

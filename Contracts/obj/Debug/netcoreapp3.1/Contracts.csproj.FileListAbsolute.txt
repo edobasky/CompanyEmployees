@@ -8,3 +8,6 @@ C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\Contracts\obj\Debug\netcoreap
 C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\Contracts\obj\Debug\netcoreapp3.1\Contracts.csproj.CoreCompileInputs.cache
 C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\Contracts\obj\Debug\netcoreapp3.1\Contracts.dll
 C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\Contracts\obj\Debug\netcoreapp3.1\Contracts.pdb
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\Contracts\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\Contracts\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\Contracts\obj\Debug\netcoreapp3.1\Contracts.csproj.CopyComplete
