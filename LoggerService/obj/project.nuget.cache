@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qK7V2o+SwqZU/aOV8hMU269BZE+l6b2ZQKTm+La+VsjkGCrKzvFPsAQQRmO8H3koI0g7DCYeNLzWz3Z2LUQXOg==",
+  "dgSpecHash": "cwVOmGdTi0EIN1FrefqAANtsOVHUWvPmJuFUpjzUgroSqD+qGz6eOrM8zhZ3zgYL+ZOl9toS32+hNeftzj2RjQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\Desktop\\CinematicCode\\CompanyEmployees\\LoggerService\\LoggerService.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.29\\microsoft.extensions.logging.abstractions.3.1.29.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.options\\3.1.29\\microsoft.extensions.options.3.1.29.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.29\\microsoft.extensions.primitives.3.1.29.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\nlog\\5.0.4\\nlog.5.0.4.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\nlog.extensions.logging\\5.0.4\\nlog.extensions.logging.5.0.4.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WaBWq3bzc6ofHNf+xfNFV6S4bZlh/OavQHGT4GqrYzntcEjQSBQM/0wjoxZNhBxK9Zx0AGi9WlepdXy+F7xQwQ==",
+  "dgSpecHash": "51VF+JJ11/Gs4TGl5/EYEYdglI7XYiZoGJWwAHa7zVpMMl6TZQhLBL8jFS+jITmbOKDjTfaLSkOi9kD2wZc73g==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\Desktop\\CinematicCode\\CompanyEmployees\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.29\\microsoft.extensions.logging.abstractions.3.1.29.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.options\\3.1.29\\microsoft.extensions.options.3.1.29.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.29\\microsoft.extensions.primitives.3.1.29.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"

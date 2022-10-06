@@ -190,6 +190,14 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
       "NLog/5.0.4": {
         "runtime": {
           "lib/netstandard2.0/NLog.dll": {
@@ -238,7 +246,8 @@
       },
       "Entities/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.29"
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.29",
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "Entities.dll": {}
@@ -370,6 +379,13 @@
       "sha512": "sha512-dTfv+4/5lMy7L7LMT98PPl7E6NjN1vwEi+xQUmNzKUOJhASiKnLaPT0OwsvVXpm6RJoAA/slLegTCOoJTqRFag==",
       "path": "microsoft.extensions.primitives/3.1.29",
       "hashPath": "microsoft.extensions.primitives.3.1.29.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
     "NLog/5.0.4": {
       "type": "package",
