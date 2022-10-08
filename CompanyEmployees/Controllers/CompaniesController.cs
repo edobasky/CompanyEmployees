@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Contracts;
 using Entities.DataTransferObjects;
+using Entities.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
@@ -26,7 +27,7 @@ namespace CompanyEmployees.Controllers
         }
 
 
-        [HttpGet]
+        [HttpGet("{id}", Name = "CompanyById")]
         public IActionResult GetCompanies()
         {
            
@@ -52,6 +53,24 @@ namespace CompanyEmployees.Controllers
                 var companyDto = _mapper.Map<CompanyDto>(company);
                 return Ok(companyDto);
             }
+        }
+
+        [HttpPost]
+        public IActionResult CreateCompany([FromBody]CompanyForCreationDto company)
+        {
+            if(company == null)
+            {
+                _logger.LogError("CompanyForCreationDto object sent from client is nulll.");
+                return BadRequest("CompanyForCreationDto"); 
+            }
+            var companyEntity = _mapper.Map<Company>(company);
+
+            _repository.Company.CreateCompany(companyEntity);
+            _repository.Save();
+
+            var companyToReturn = _mapper.Map<CompanyDto>(companyEntity);
+
+            return CreatedAtRoute("CompanyById", new { id = companyToReturn.Id }, companyToReturn);
         }
     }
 }
