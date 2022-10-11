@@ -22,12 +22,19 @@ namespace Repository
             Create(employee);
         }
 
+        public void DeleteEmployee(Employee employee)
+        {
+            Delete(employee);
+        }
+
         public Employee GetEmployee(Guid comopanyId, Guid id, bool trackChanges) =>
             FindByCondition(e => e.CompanyId.Equals(comopanyId) && e.Id.Equals(id), trackChanges)
                 .SingleOrDefault();
 
         public IEnumerable<Employee> GetEmployees(Guid companyId, bool trackChanges) => FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
             .OrderBy(e => e.Name);
+
+
         
     }
 }
