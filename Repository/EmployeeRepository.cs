@@ -27,8 +27,8 @@ namespace Repository
             Delete(employee);
         }
 
-        public Employee GetEmployee(Guid comopanyId, Guid id, bool trackChanges) =>
-            FindByCondition(e => e.CompanyId.Equals(comopanyId) && e.Id.Equals(id), trackChanges)
+        public Employee GetEmployee(Guid companyId, Guid id, bool trackChanges) =>
+            FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id), trackChanges)
                 .SingleOrDefault();
 
         public IEnumerable<Employee> GetEmployees(Guid companyId, bool trackChanges) => FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)

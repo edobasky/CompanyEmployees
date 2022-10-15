@@ -31,25 +31,25 @@ namespace CompanyEmployees.Controllers
         [HttpGet("{id}", Name = "CompanyById")]
         public IActionResult GetCompanies()
         {
-           
-                var companies = _repository.Company.GetAllCompanies(trackChanges: false);
-                var companiesDto = _mapper.Map<IEnumerable<CompanyDto>>(companies);
-          
-                return Ok(companiesDto);
 
-         
-             
+            var companies = _repository.Company.GetAllCompanies(trackChanges: false);
+            var companiesDto = _mapper.Map<IEnumerable<CompanyDto>>(companies);
+
+            return Ok(companiesDto);
+
+
+
         }
 
         [HttpGet("{id}")]
         public IActionResult GetCompany(Guid id)
         {
             var company = _repository.Company.GetCompany(id, trackChanges: false);
-            if(company == null)
+            if (company == null)
             {
                 _logger.LogError($"Company with id: {id} doesn't exist in the database.");
                 return NotFound();
-            }else
+            } else
             {
                 var companyDto = _mapper.Map<CompanyDto>(company);
                 return Ok(companyDto);
@@ -57,12 +57,12 @@ namespace CompanyEmployees.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateCompany([FromBody]CompanyForCreationDto company)
+        public IActionResult CreateCompany([FromBody] CompanyForCreationDto company)
         {
-            if(company == null)
+            if (company == null)
             {
                 _logger.LogError("CompanyForCreationDto object sent from client is nulll.");
-                return BadRequest("CompanyForCreationDto"); 
+                return BadRequest("CompanyForCreationDto");
             }
             var companyEntity = _mapper.Map<Company>(company);
 
@@ -75,7 +75,7 @@ namespace CompanyEmployees.Controllers
         }
 
         [HttpGet("collection/{ids}", Name = "CompanyCollection")]
-        public IActionResult GetCompanyCollection([ModelBinder(BinderType = typeof(ArrayModelBinder))]IEnumerable<Guid> ids)
+        public IActionResult GetCompanyCollection([ModelBinder(BinderType = typeof(ArrayModelBinder))] IEnumerable<Guid> ids)
         {
             if (ids == null)
             {
@@ -132,6 +132,28 @@ namespace CompanyEmployees.Controllers
             }
 
             _repository.Company.DeleteCompany(company);
+            _repository.Save();
+
+            return NoContent();
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateCompany(Guid id, [FromBody] CompanyForUpdateDto company)
+        {
+            if (company == null)
+            {
+                _logger.LogError("CompanyForUpdateDto object sent from client is null");
+                return BadRequest("CompanyForUpdateDto object is null");
+            }
+
+            var companyEntity = _repository.Company.GetCompany(id, trackChanges: true);
+            if (companyEntity == null)
+            {
+                _logger.LogInfo($"Company with id: {id} doesn't exist in the database.");
+                return NotFound();
+            }
+
+            _mapper.Map(company, companyEntity);
             _repository.Save();
 
             return NoContent();
