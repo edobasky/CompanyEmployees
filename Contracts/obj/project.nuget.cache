@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tFrVPYUGEZDbORw0n74IHAd6l2OHYTJKeppjKhNuJM9YzcuOjNSyq/7wcJvsXm59zIKfQ+SSmJTBEBqKIOWOXg==",
+  "dgSpecHash": "tWzdN+eTuZAHLYkYPKfByQnooFsj/MZ2PfQXtiKlZ6wb4+sIiWBW+q6+MAbUNT5OFNYz0hcQdFM8VAYaUmqZqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\Desktop\\CinematicCode\\CompanyEmployees\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.26\\microsoft.aspnetcore.cryptography.internal.3.1.26.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.26\\microsoft.aspnetcore.cryptography.keyderivation.3.1.26.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.26\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.26.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.29\\microsoft.entityframeworkcore.3.1.29.nupkg.sha512",
@@ -17,6 +20,8 @@
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.29\\microsoft.extensions.configuration.binder.3.1.29.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.29\\microsoft.extensions.dependencyinjection.3.1.29.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.29\\microsoft.extensions.dependencyinjection.abstractions.3.1.29.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.identity.core\\3.1.26\\microsoft.extensions.identity.core.3.1.26.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.26\\microsoft.extensions.identity.stores.3.1.26.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.logging\\3.1.29\\microsoft.extensions.logging.3.1.29.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.29\\microsoft.extensions.logging.abstractions.3.1.29.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.options\\3.1.29\\microsoft.extensions.options.3.1.29.nupkg.sha512",

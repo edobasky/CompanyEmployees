@@ -33,6 +33,8 @@ namespace CompanyEmployees
         public void ConfigureServices(IServiceCollection services)
         {
             services.ConfigureCors();
+            services.AddAuthentication();
+            services.ConfigureIdentity();
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
             services.ConfigureSqlContext(Configuration);
@@ -64,6 +66,7 @@ namespace CompanyEmployees
 
             app.ConfigurExceptionHandler(logger);
             app.UseHttpsRedirection();
+          
             app.UseStaticFiles();
             app.UseCors("CorsPolicy");
 
@@ -74,6 +77,7 @@ namespace CompanyEmployees
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
