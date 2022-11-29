@@ -2,12 +2,15 @@
 using Entities;
 using Entities.Models;
 using LoggerService;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 using Repository;
+using System.Text;
 
 namespace CompanyEmployees.Extensions
 {
@@ -55,5 +58,17 @@ namespace CompanyEmployees.Extensions
                 .AddDefaultTokenProviders();
         }
 
+        public static void ConfigureJWT(this IServiceCollection services, IConfiguration config)
+        {
+            var jwtSettings = config.GetSection("JwtSettings");
+            var secretKey = config.GetSection("JwtSecret:Key").Value;
+
+
+            services.AddAuthentication(opt => { opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme; })
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters { ValidateIssuer = true, ValidateAudience = true, ValidateLifetime = true, ValidateIssuerSigningKey = true, ValidIssuer = jwtSettings.GetSection("validIssuer").Value, ValidAudience = jwtSettings.GetSection("validAudience").Value, IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey)) };
+                });
+        }
     }
 }

@@ -4,6 +4,7 @@ using CompanyEmployees.ModelBinders;
 using Contracts;
 using Entities.DataTransferObjects;
 using Entities.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
@@ -30,7 +31,7 @@ namespace CompanyEmployees.Controllers
         }
 
 
-        [HttpGet("{id}", Name = "CompanyById")]
+        [HttpGet(Name = "CompanyById"), Authorize]
         public async Task<IActionResult> GetCompanies()
         {
 

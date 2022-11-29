@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uo/Kse2y7v6pwDFJQKR+rLA6jHVuINqB9HKmLoxYZcZo5xu06zz6+8FMphUL2OjbgKvTcLF0F0xp4aGKi3wlYg==",
+  "dgSpecHash": "FUyeL03xqF1PAww+4SF00EvFOL6ZL4b9DYyhV2snYKg36OQr3y/aCeounHYT4u77QmlJI42ZhuLOhdyUR/ZwBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\Desktop\\CinematicCode\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\hp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.24\\microsoft.aspnetcore.authentication.jwtbearer.3.1.24.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.26\\microsoft.aspnetcore.cryptography.internal.3.1.26.nupkg.sha512",
