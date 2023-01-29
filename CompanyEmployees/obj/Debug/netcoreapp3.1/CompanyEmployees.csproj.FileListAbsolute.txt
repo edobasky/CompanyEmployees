@@ -84,3 +84,4 @@ C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\CompanyEmployees\bin\Debug\ne
 C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\CompanyEmployees\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\CompanyEmployees\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\CompanyEmployees\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\hp\Desktop\CinematicCode\CompanyEmployees\CompanyEmployees\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
