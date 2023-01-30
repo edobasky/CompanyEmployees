@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 
 namespace CompanyEmployees.Controllers
 {
+    [ApiVersion("1.0")]
     [Route("api/companies")]
     [ApiController]
     public class CompaniesController : ControllerBase
@@ -31,7 +32,7 @@ namespace CompanyEmployees.Controllers
         }
 
 
-        [HttpGet(Name = "CompanyById"), Authorize]
+        [HttpGet(Name = "CompanyById")]
         public async Task<IActionResult> GetCompanies()
         {
 

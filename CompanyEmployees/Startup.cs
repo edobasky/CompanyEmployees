@@ -34,6 +34,8 @@ namespace CompanyEmployees
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.ConfigureVersioning();
             services.ConfigureCors();
             services.AddAuthentication();
             services.ConfigureIdentity();
@@ -81,7 +83,7 @@ namespace CompanyEmployees
 
             app.UseRouting();
 
-            app.UseAuthentication();
+          //  app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
