@@ -37,6 +37,7 @@ namespace CompanyEmployees
 
             services.ConfigureVersioning();
             services.ConfigureCors();
+            services.ConfigureResponseCaching();
             services.AddAuthentication();
             services.ConfigureIdentity();
             services.ConfigureJWT(Configuration);
@@ -81,6 +82,7 @@ namespace CompanyEmployees
                 ForwardedHeaders = ForwardedHeaders.All
             });
 
+            app.UseResponseCaching();
             app.UseRouting();
 
           //  app.UseAuthentication();
